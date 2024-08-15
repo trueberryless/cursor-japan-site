@@ -10,8 +10,15 @@ import react from "@astrojs/react";
 import linkCard from "astro-link-card";
 import tailwind from "@astrojs/tailwind";
 
+import webVitals from "@astrojs/web-vitals";
+
 // https://astro.build/config
 export default defineConfig({
+  experimental: {
+    contentLayer: true,
+    contentIntellisense: true
+  },
+  site: 'https://cursor-japan.org',
   integrations: [starlight({
     favicon: '/favicon.png',
     plugins: [starlightBlog(), starlightUtils({
@@ -24,12 +31,13 @@ export default defineConfig({
     // starlightLinksValidator(), 
     //starWarp()
     ],
-    customCss: [
-      './src/tailwind.css',
-    ],
+    customCss: ['./src/tailwind.css'],
     title: 'Cursor Japan Community',
+    editLink: {
+      baseUrl: 'https://github.com/cursor-japan/cursor-japan-site/edit/main/'
+    },
     logo: {
-      src: '/src/assets/cursor-japan-app-logo.svg',
+      src: '/src/assets/cursor-japan-app-logo.svg'
     },
     defaultLocale: "root",
     locales: {
@@ -40,7 +48,8 @@ export default defineConfig({
     },
     social: {
       github: 'https://github.com/cursor-japan/cursor-japan-site',
-      twitter: 'https://x.com/astrodotbuild'
+      "x.com": 'https://x.com/cursor_japan'
+      // "openCollective": 'https://opencollective.com/cursor-japan'
     },
     components: {
       Pagination: "./src/components/CustomPagination.astro"
@@ -69,6 +78,6 @@ export default defineConfig({
       }
     }]
   }), react(), linkCard(), tailwind({
-    applyBaseStyles: false,
-  })]
+    applyBaseStyles: false
+  }), webVitals()]
 });

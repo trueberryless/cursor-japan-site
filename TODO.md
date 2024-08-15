@@ -21,5 +21,6 @@
 - Add Guides
 - Add Tips
 - Add Forum or Forum link
+    - Add giscus 
 - Add Discord? Not for now
 - Add purpose: 日本でCursorの活動を活性化させるため、広めるためのコミュニティ

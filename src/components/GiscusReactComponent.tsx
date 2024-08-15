@@ -1,4 +1,4 @@
-import Giscus from '@giscus/react';
+import Giscus from "@giscus/react";
 
 export default function MyApp() {
   return (
@@ -18,7 +18,7 @@ export default function MyApp() {
         inputPosition="top"
         //theme="preferred_color_scheme"
         lang="ja"
-      // loading="lazy"
+        // loading="lazy"
       />
     </>
   );

@@ -3,6 +3,7 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
+    "check": "biome check --write .",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
@@ -33,6 +34,7 @@
     "astro-link-card": "^1.0.9",
     "framer-motion": "^11.3.28",
     "giscus": "^1.5.0",
+    "lefthook": "^1.7.12",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "shadergradient": "^1.2.14",
@@ -44,5 +46,8 @@
     "three": "^0.167.1",
     "typescript": "^5.5.4",
     "wrangler": "^3.71.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3"
   }
 }

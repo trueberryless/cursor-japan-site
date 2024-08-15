@@ -9,8 +9,10 @@ import starlightUtils from "@lorenzo_lewis/starlight-utils";
 import react from "@astrojs/react";
 import linkCard from "astro-link-card";
 import tailwind from "@astrojs/tailwind";
-
 import webVitals from "@astrojs/web-vitals";
+import db from "@astrojs/db";
+
+import cloudflare from "@astrojs/cloudflare";
 
 // https://astro.build/config
 export default defineConfig({
@@ -79,5 +81,9 @@ export default defineConfig({
     }]
   }), react(), linkCard(), tailwind({
     applyBaseStyles: false
-  }), webVitals()]
+  }), webVitals(), db()],
+  output: "server",
+  adapter: cloudflare({
+    imageService: 'cloudflare'
+  })
 });

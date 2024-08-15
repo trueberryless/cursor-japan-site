@@ -1,0 +1,5 @@
+bun = "latest"
+npm = "latest"
+
+[settings]
+auto-install = true

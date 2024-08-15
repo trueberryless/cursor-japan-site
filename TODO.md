@@ -1,0 +1,25 @@
+- Create logo
+- Invite people
+- Create profile pics
+- Create News section
+- Realtime Tweets
+- Used by Tweets
+- Used by Companies
+- Twitter social
+- Official mail
+- Create LP
+- Add React gradient
+- Create translation crawler system using Firecrawl
+- Create translation agents
+- Create automatic translation of Changelog
+- Add SEO
+- Add analytics
+- Add sitemap
+- Add ogg
+- Add image optimization
+- Add News: Official
+- Add Guides
+- Add Tips
+- Add Forum or Forum link
+- Add Discord? Not for now
+- Add purpose: 日本でCursorの活動を活性化させるため、広めるためのコミュニティ

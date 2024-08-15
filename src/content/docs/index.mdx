@@ -1,0 +1,36 @@
+---
+title: Cursor Japan Communityへようこそ
+description: Cursor Japan Community
+template: splash
+hero:
+  tagline: 革新的なAIが日本のコーディングを変える。想像を超える生産性と創造性で、日本の未来を切り拓く。
+  image:
+    file: ../../assets/app-logo.svg
+  actions:
+    - text: 例示ガイド
+      link: /guides/example/
+      icon: right-arrow
+      variant: primary
+    - text: Starlightのドキュメントを読む
+      link: https://starlight.astro.build
+      icon: external
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## 次のステップ
+
+<CardGrid stagger>
+	<Card title="コンテンツを更新" icon="pencil">
+		`src/content/docs/index.mdx`を編集して、このページの変更を確認してください。
+	</Card>
+	<Card title="新しいコンテンツを追加" icon="add-document">
+		`src/content/docs`にMarkdownまたはMDXファイルを追加して、新しいページを作成します。
+	</Card>
+	<Card title="サイトを設定" icon="setting">
+		`astro.config.mjs`で`sidebar`やその他の設定を編集してください。
+	</Card>
+	<Card title="ドキュメントを読む" icon="open-book">
+		[Starlightのドキュメント](https://starlight.astro.build/)でさらに詳しく学びましょう。
+	</Card>
+</CardGrid>

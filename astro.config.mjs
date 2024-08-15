@@ -13,6 +13,7 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   integrations: [starlight({
+    favicon: '/favicon.png',
     plugins: [starlightBlog(), starlightUtils({
       navLinks: {
         leading: {
@@ -28,7 +29,7 @@ export default defineConfig({
     ],
     title: 'Cursor Japan Community',
     logo: {
-      src: '/src/assets/app-logo.svg',
+      src: '/src/assets/cursor-japan-app-logo.svg',
     },
     defaultLocale: "root",
     locales: {

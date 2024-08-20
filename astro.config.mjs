@@ -15,6 +15,7 @@ import linkCard from "astro-link-card";
 
 // https://astro.build/config
 export default defineConfig({
+  prefetch: true,
   experimental: {
     contentLayer: true,
     contentIntellisense: true,

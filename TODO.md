@@ -10,6 +10,8 @@
 - Create LP
 - Add React gradient
 - Create translation crawler system using Firecrawl
+- Compare Firecrawl with Markdowner
+    https://github.com/supermemoryai/markdowner?tab=readme-ov-file
 - Create translation agents
 - Create automatic translation of Changelog
 - Add SEO
@@ -25,6 +27,7 @@
 - Add Discord? Not for now
 - Add purpose: 日本でCursorの活動を活性化させるため、広めるためのコミュニティ
 
+
 # Integrations
 - https://github.com/surjithctly/astro-navbar?tab=readme-ov-file#readme
 
@@ -36,3 +39,4 @@
 - https://x.com/hokazuya
 - https://x.com/ai_syacho
 - https://x.com/MacopeninSUTABA
+- https://x.com/yuno_miyako2
